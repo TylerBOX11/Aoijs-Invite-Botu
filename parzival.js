@@ -65,7 +65,7 @@ bot.leaveCommand({
   channel:"$getServerVar[log]",
   code:`
 $author[Bir üye ayrıldı!;$authorAvatar]
-$description[$getServerVar[leave] <@$authorID> Sunucumuzdan ayrıldı! Davet eden **[$userTag[$userInfo[inviter]]](https://discordapp.com/users/$userInfo[inviter])**. Davet sayısı \`$userInfo[real;$userInfo[inviter]]\`]
+$description[$getServerVar[leave] [$userTag](https://discord.com/users/$authorID) Sunucumuzdan ayrıldı! Davet eden <@$authorID>. Davet sayısı \`$userInfo[real;$userInfo[inviter]]\`]
 $color[BLACK]
 $thumbnail[$authorAvatar]
 $suppressErrors[$getServerVar[leave] <@$authorID> Sunucumuzdan ayrıldı ama onu kimin davet ettiğini bulamadım.]
