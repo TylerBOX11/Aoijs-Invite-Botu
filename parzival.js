@@ -82,6 +82,7 @@ $description[<@$userInfo[inviter]> adlı üye **$getServerVar[davet1]** davet ya
 $color[BLACK]
 $thumbnail[$userAvatar[$userInfo[inviter]]]
 $giveRoles[$userInfo[inviter];$getServerVar[rol1]]
+$onlyIf[$hasRole[$authorID;$getServerVar[rol1]]==false;]
 $onlyIf[$userInfo[real;$userInfo[inviter]]==$getServerVar[davet1];]
 $suppressErrors
   `
@@ -95,6 +96,7 @@ $description[<@$userInfo[inviter]> adlı üye **$getServerVar[davet2]** davet ya
 $color[BLACK]
 $thumbnail[$userAvatar[$userInfo[inviter]]]
 $giveRoles[$userInfo[inviter];$getServerVar[rol2]]
+$onlyIf[$hasRole[$authorID;$getServerVar[rol2]]==false;]
 $onlyIf[$userInfo[real;$userInfo[inviter]]==$getServerVar[davet2];]
 $suppressErrors
   `
@@ -108,6 +110,7 @@ $description[<@$userInfo[inviter]> adlı üye **$getServerVar[davet3]** davet ya
 $color[BLACK]
 $thumbnail[$userAvatar[$userInfo[inviter]]]
 $giveRoles[$userInfo[inviter];$getServerVar[rol3]]
+$onlyIf[$hasRole[$authorID;$getServerVar[rol3]]==false;]
 $onlyIf[$userInfo[real;$userInfo[inviter]]==$getServerVar[davet3];]
 $suppressErrors
   `
@@ -121,6 +124,7 @@ $description[<@$userInfo[inviter]> adlı üye **$getServerVar[davet4]** davet ya
 $color[BLACK]
 $thumbnail[$userAvatar[$userInfo[inviter]]]
 $giveRoles[$userInfo[inviter];$getServerVar[rol4]]
+$onlyIf[$hasRole[$authorID;$getServerVar[rol4]]==false;]
 $onlyIf[$userInfo[real;$userInfo[inviter]]==$getServerVar[davet4];]
 $suppressErrors
   `
@@ -134,6 +138,7 @@ $description[<@$userInfo[inviter]> adlı üye **$getServerVar[davet5]** davet ya
 $color[BLACK]
 $thumbnail[$userAvatar[$userInfo[inviter]]]
 $giveRoles[$userInfo[inviter];$getServerVar[rol5]]
+$onlyIf[$hasRole[$authorID;$getServerVar[rol5]]==false;]
 $onlyIf[$userInfo[real;$userInfo[inviter]]==$getServerVar[davet5];]
 $suppressErrors
   `
